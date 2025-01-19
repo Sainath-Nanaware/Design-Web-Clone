@@ -33,7 +33,7 @@ import StatisticsData from './staticData.js'
 // ];
 function Statistics() {
   return (
-    <div className=' primary-border h-[40vh] flex justify-center items-center gap-4 px-[120px] '>
+    <div className=' h-[40vh] flex justify-center items-center gap-4 px-[120px] '>
         {StatisticsData.map((element,index)=>{
             return <SattisticsCard key={index} img={element.imgSvg} num={element.num} title={element.title} desc={element.desc}/>
         })}
