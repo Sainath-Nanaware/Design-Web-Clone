@@ -5,6 +5,7 @@ import Statistics from '../components/Statistics'
 import ProvideService from '../components/ProvideService'
 import WhyWeBest from '../components/WhyWeBest'
 import OurNetwork from '../components/OurNetwork'
+import ClientAboutUs from '../components/ClientAboutUs'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
     <ProvideService/>
     <WhyWeBest/>
     <OurNetwork/>
+    <ClientAboutUs/>
 
     
     </>

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components{
-  .primary-border{
+  .pb{
     @apply  border-2 border-red-600  
   }
 }
